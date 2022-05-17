@@ -1,0 +1,46 @@
+.App{ 
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-left:0;
+  
+}
+.content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    gap:15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.filter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container-content{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    display: flex;
+    gap:15px;
+}
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(5, minmax(179px, 50%));
+}
+.movie-image{
+    width: 100%;
+}
+.searchIcon{
+    margin-left: 20%;
+}
