@@ -1,5 +1,5 @@
 import React from "react";
-import "./movieCard.css";
+import "./style/MovieCard.css";
 import moment from 'moment';
 import 'moment-timezone';
 
